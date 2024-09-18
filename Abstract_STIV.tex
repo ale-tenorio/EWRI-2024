@@ -18,6 +18,9 @@
 
 \begin{frontmatter}
 
+%% F Engel: 20240917 - This abstract was reviewed according to USGS Fundamental Science Practices. 
+%%                     and is approved for dessimination. USGS record: IP-170748 
+
 \title{Improving Space-Time Image Velocimetry Accuracy with Deep Learning: Integrating Synthetic and Real-World Data}
 
 \author[inst1]{Tenorio, A}
@@ -30,9 +33,10 @@
             city={University Park},
             state={Pennsylvania},
             country={USA}}
-            
-\affiliation[inst2]{organization={US Geological Survey}, 
-			department={Observing Systems Division},
+
+%% F Engel: Added an extra comma to `department` b/c TEX render was missing it for some reason.
+\affiliation[inst2]{organization={U.S. Geological Survey}, 
+			department={Water Mission Area, Observing Systems Division, Hydrologic Remote Sensing Branch,},
             city={San Antonio},
             state={Texas},
             country={USA}}
@@ -43,7 +47,7 @@ STIV \sep Deep Learning \sep Flow measurements
 
 \end{frontmatter}
 
-\linenumbers
+%% \linenumbers
 
 Quantifying streamflow is essential for resource management, habitat monitoring, and emergency response, but extreme events pose challenges for direct measurements due to safety and accessibility concerns. Remote sensing techniques, such as Space-Time Image Velocimetry (STIV), allow for non-contact measurements of velocity and discharge. STIV uses video footage of the water surface to generate Space-Time Images (STI), assuming surface textures will act as passive tracers. However, environmental conditions such as sunlight conditions, surface reflections or rain can hinder the quality of the STIs. While Wavenumber–Frequency Spectra (WFS) filters can improve STI quality, they struggle in real-time applications. Incorporating deep learning can enhance real-time accuracy, as demonstrated in previous work with synthetic STIs. We aim to extend this by combining synthetic, computational, laboratory-controlled, and real-world data to improve the accuracy of flow measurements in natural settings.
 
